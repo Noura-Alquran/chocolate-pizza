@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body { 
-width:80%;
+width:100%;
 text-align: center;
 }
 div h1{
@@ -30,7 +30,7 @@ header ul {
     margin-right:30px;
    margin-top:10px;
    position: relative;
-   right:100px;
+   right:280px;
 }
 .liOne{
     margin-left:15px ;
@@ -47,7 +47,7 @@ main h1{
     font-size:xx-large;
     font-family: 'Anton', sans-serif;
     text-align: left;
-    margin-left:155px;
+    margin-left:310px;
 }
 nav ul li{
     display: inline-block;
@@ -60,18 +60,19 @@ nav ul li{
 }
 .pTwo{
     color: rgb(82, 81, 81);
-    text-align: left;
-    margin-left:155px;
-   font-size:large;
+    text-align:left;
+    margin-left:310px;
+   font-size:20px;
    margin-bottom: 20px;
-   width:75%;
+   width:59%;
+  
 }
 #mainPic{
     margin-top:20px;
     margin-bottom :20px;
 }
 #form div form{
-    width:75%;
+    width:59%;
 }
 #form div form ul{
  display:inline-block;
@@ -79,20 +80,27 @@ nav ul li{
 #form
 {
 background-image: url("https://github.com/LTUC/amman-201d14/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true");
- width :75%;
+ width :59%;
  height:270px;
- margin-left: 155px;
- font-size:x-large;
- font-family: monospace;
- font-weight: bold;
+ margin-left: 310px;
+ font-size:24px;
+ font-family: 'Kalam', cursive;
  color:rgb(109, 103, 103);
 }
 #form div form ul li {
     text-align: left;
 }
 #formTwo ul{
-    margin-bottom: 200px;
-    margin-left:50%;
+    /* padding-bottom:700px; */
+    /* margin-left:50px; */
+    position: relative;
+    bottom: 90px;
+    left:400px;
+}
+#formOne{
+    position: relative;
+  top: 55px;
+  right:70px;
 }
 #form div form ul{
     position: relative;
@@ -106,15 +114,26 @@ button{
     padding-left:20px;
     padding-right:20px;
     font-size:medium;
-    float: right;
+    /* float: right; */
     margin-bottom:30px;
+    position: relative;
+    left: 350px;
+    bottom: 90px;
+
 }
 button:hover{
     background-color:white ;
     color:rgb(145, 64, 64);
 }
-footer hr img{
+footer img{
     text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+hr{
+    position: relative;
+    top: 20px;
 }
 #v div {
     display: inline-block;
@@ -128,5 +147,15 @@ footer hr img{
     font-size: larger;
     text-align: left;
     position: relative;
-    left:30px;
+    right: 40px;
+    bottom:70px;
+    font-weight: bold;
+    color: gray;
+}
+#pthree{
+    position: relative;
+    bottom:50px;
+    /* font-family: Arial, sans-serif; */
+    right: 45px;
+   
 }
